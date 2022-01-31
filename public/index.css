@@ -12,8 +12,8 @@ body {
 }
 
 .backdrop {
-  background-color: #3333333f;
-  backdrop-filter: blur(2px);
+  background-color: #3333335f;
+  backdrop-filter: blur(3px);
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -29,10 +29,10 @@ header {
 }
 
 header > img {
-  height: 15vh;
-  margin: 5vh;
-  opacity: 25%;
-  width: 15vh;
+  height: 20vh;
+  margin-top: 40vh;
+  opacity: 40%;
+  width: 20vh;
 }
 
 footer {
