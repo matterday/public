@@ -1,0 +1,50 @@
+body {
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("background.jpg");
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 100vw;
+}
+
+.backdrop {
+  background-color: #3333333f;
+  backdrop-filter: blur(2px);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 100vw;
+}
+
+header {
+  align-self: center;
+  flex: 1 1 auto;
+}
+
+header > img {
+  height: 15vh;
+  margin: 5vh;
+  opacity: 25%;
+  width: 15vh;
+}
+
+footer {
+  align-items: flex-end;
+  color: #ffffff33;
+  flex: 0 1 auto;
+}
+
+footer > div {
+  visibility: hidden;
+}
+
+a {
+  color: #ffffff33;
+}
